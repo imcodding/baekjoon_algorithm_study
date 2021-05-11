@@ -1,0 +1,10 @@
+diff a/02 MATH/bj_2609.cpp b/02 MATH/bj_2609.cpp	(rejected hunks)
+@@ -1,7 +1,7 @@
+ #include <iostream>
+ #include <vector>
+ using namespace std;
+-int gcd(int x, int y) { // 최대공약수
++int gcd(int x, int y) { // 理?怨듭쎌
+ 	if (y == 0) return x;
+ 	else return gcd(y, x % y);
+ }

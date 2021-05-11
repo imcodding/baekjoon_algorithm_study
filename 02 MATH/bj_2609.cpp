@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 using namespace std;
-int gcd(int x, int y) { // ÃÖ´ë°ø¾à¼ö
+int gcd(int x, int y) { // ìµœëŒ€ê³µì•½ìˆ˜
 	if (y == 0) return x;
 	else return gcd(y, x % y);
 }
@@ -10,7 +10,7 @@ int main()
 	int a, b;
 	cin >> a >> b;
 	int g = gcd(a, b);
-	int l = a * b / g; // ÃÖ¼Ò°ø¹è¼ö
+	int l = a * b / g; // ìµœì†Œê³µë°°ìˆ˜
 	cout << g << '\n' << l;
 	return 0;
 }
