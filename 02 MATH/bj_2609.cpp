@@ -3,7 +3,7 @@
 using namespace std;
 int gcd(int x, int y) { // 최대공약수
 	if (y == 0) return x;
-	else gcd(y, x % y);
+	else return gcd(y, x % y);
 }
 int main()
 {
